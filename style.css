@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    font-family: "Roboto", sans-serif;
+    /* overflow-x: hidden; */
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 0.5rem;
+}
+.about-us .about-us-c1{
+    flex: 1;
+    width: 50vw;
+    text-align: center;
+    padding: 2rem;
+}
+.about-us .about-us-c1 h1{
+    margin-bottom: 2rem;
+}
+.about-us .about-us-c1 p{
+    width: 80%;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-weight: 450;
+    margin: 0 auto;
+}
+.about-us-c1 h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.span-element{
+    color: darkorange;
+}
+.span-element-orange{
+    font-family: "Pridi", serif;
+    color: darkorange;
+}
+.span-element-blue{
+    font-family: "Pridi", serif;
+    color: #1F75FE;
+}
+.span-element-green{
+    font-family: "Pridi", serif;
+    color: green;
+}
+.vision{
+    width: 100%;
+    height: 50vh;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vision-info{
+    width: 50%;
+    padding: 1rem 3rem;
+}
+.vision-info p{
+    width: 80%;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    font-weight: 450;
+    margin: 0 auto;
+    text-align: center;
+}
+.line{
+    width: 0;
+    height: 50%;
+    border: 0.1rem solid #E0E0E0;
+}
+.vision-head{
+    width: 50%;
+    text-align: center;
+}
+.vision-head h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.team{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.team .team-head{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2rem 0 2rem 4rem;
+}
+.team div{
+    text-align: center;
+    margin: 2rem 0;
+}
+.team div h1{
+    font-family: "Pridi", serif;
+    font-weight: 500;
+}
+.team .card-container{
+    background-color: #F5F5F5;
+    padding: 2rem 0;
+}
+.join{
+    width: 100%;
+    height: 70vh;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+}
+.join .join-c1{
+    padding: 0 3rem 0 5rem;
+    width: 60%;
+}
+.join .join-c1 h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.join .join-c1 p{
+    font-size: 0.9rem;
+    line-height: 1.75;
+    font-weight: 450;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.join .join-c1 button{
+    font-size: 1rem;
+    border: none;
+    background-color: #1F75FE;
+    color: white;
+    padding: 0.75rem 1.75rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+}
+.join img{
+    align-self: flex-end;
+}
