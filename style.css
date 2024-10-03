@@ -91,16 +91,41 @@
 }
 .team div{
     text-align: center;
-    margin: 2rem 0;
 }
 .team div h1{
     font-family: "Pridi", serif;
     font-weight: 500;
+    margin: 4rem 0 2rem 0;
 }
 .team .card-container{
     background-color: #F5F5F5;
-    padding: 2rem 0;
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
 }
+.team .card-container .card{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    
+}
+.team .card-container .card img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 15px;
+}
+.team .card-container .card img div{
+    margin: 0;
+}
+
+
+
+
 .join{
     width: 100%;
     height: 70vh;
